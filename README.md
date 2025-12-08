@@ -28,10 +28,9 @@ We build a unified framework combining spatial filtering (xDAWN), temporal model
 - CAR referencing  
 
 ### **Feature Extraction**
-- **xDAWN**  6 spatial components
+- **xDAWN**: 6 spatial components
 - **ERP amplitude** (250–500 ms)  
-- **HMM** → temporal likelihood features  
-- **Final feature vector**
+- **HMM**: temporal likelihood features  
   
 ### **Classical ML Models**
 - LDA  
