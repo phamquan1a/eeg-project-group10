@@ -9,11 +9,11 @@ Preprocessing: 1–30 Hz filtering, artifact rejection, baseline correction, CAR
 
 Feature extraction:
 
-xDAWN → 6 spatial components (774 temporal features)
+- xDAWN → 6 spatial components (774 temporal features)
 
-P300 ERP amplitude (250–500 ms)
+- P300 ERP amplitude (250–500 ms)
 
-HMM → temporal likelihood features
+- HMM → temporal likelihood features
 → Final feature vector: 777 dimensions
 
 Classical ML models: LDA, LogReg, SVM, RandomForest, GradientBoosting, XGBoost.
