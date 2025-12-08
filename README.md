@@ -43,7 +43,7 @@ We build a unified framework combining spatial filtering (xDAWN), temporal model
 ### **Deep Learning Models**
 - EEGNet  
 - ShallowConvNet  
-- DeepConvNet (trained on raw EEG)
+- DeepConvNet
 
 ---
 
