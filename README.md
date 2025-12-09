@@ -21,9 +21,9 @@ We build a unified framework combining spatial filtering (xDAWN), temporal model
 - CAR referencing  
 
 ### **Feature Extraction**
-- **xDAWN**
-- **ERP amplitude** 
-- **HMM**
+- xDAWN
+- ERP amplitude
+- HMM
   
 ### **Classical ML Models**
 - LDA  
