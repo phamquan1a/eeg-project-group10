@@ -14,29 +14,19 @@ We build a unified framework combining spatial filtering (xDAWN), temporal model
 
 ##  Pipeline
 
-### **Preprocessing**
-- bandpass filtering  
-- Artifact rejection  
-- Baseline correction  
-- CAR referencing  
+# **Preprocessing**
+The EEG signals are preprocessed using standard steps, including bandpass filtering, artifact rejection, baseline correction, and common average referencing. 
 
-### **Feature Extraction**
-- xDAWN
-- ERP amplitude
-- HMM
+# **Feature Extraction**
+Feature extraction combines spatial, temporal, and probabilistic representations. xDAWN is applied to enhance event-related responses, ERP amplitudes are measured within the relevant time window, and an HMM is used to generate temporal likelihood–based features. The HMM component is included to evaluate whether its timeseries representations provide additional value beyond the standard ERP-based features.
   
 ### **Classical ML Models**
-- LDA  
-- Logistic Regression  
-- SVM  
-- Random Forest  
-- Gradient Boosting  
-- XGBoost  
+A range of classical machine-learning models is used to classify frequent versus target trials under a balanced design. The models include LDA, Logistic Regression, SVM, Random Forest, Gradient Boosting, and XGBoost.
+ 
 
 ### **Deep Learning Models**
-- EEGNet  
-- ShallowConvNet  
-- DeepConvNet
+For comparison with traditional approaches, several deep-learning architectures tailored for EEG data are also implemented. These include EEGNet, ShallowConvNet, and DeepConvNet.
+
 
 ---
 
