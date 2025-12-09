@@ -1,8 +1,6 @@
 # EEG - Mini Project: Classification of EEG Oddball Signals  
 
 This project is the result of our group's work for the Computational Neuroscience and Applications course. We would like to express our sincere gratitude to Professor Guy Nagels and Professor Nguyen Linh Trung for their dedicated guidance and support throughout this project.
-This project investigates single-trial P300 detection using both traditional machine-learning pipelines and deep learning models, applied on a 42-subject auditory oddball EEG dataset.  
-We build a unified framework combining spatial filtering (xDAWN), temporal modeling (HMM), ERP features, and end-to-end CNNs to compare accuracy, robustness, and computational efficiency.
 
 ### **Group 10 - Members**
 - **Pham Quan** (23020418)  
