@@ -35,7 +35,7 @@ For comparison with traditional approaches, several deep-learning architectures 
 ---
 
 ##  Results
-Traditional machine learning methods typically achieve around 77.5% accuracy, while deep learning approaches—particularly models like EEGNet and DeepConvNet—can reach performance levels of up to 94.6%. Incorporating HMM-based features further boosts ML performance by approximately 0.5–1.5%. Moreover, deep learning models tend to reduce inter-subject variability and offer better generalization across different participants.
+Traditional machine learning methods typically achieve around 77.5% accuracy, while deep learning approaches, particularly models like EEGNet and DeepConvNet, can reach performance levels of up to 94.6%. Incorporating HMM-based features further boosts ML performance by approximately 0.5-1.5%. Moreover, deep learning models tend to reduce inter-subject variability and offer better generalization across different participants.
 
 ---
 
